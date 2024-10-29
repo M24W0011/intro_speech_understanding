@@ -16,7 +16,7 @@ def center_of_gravity(x):
     @result:
     c (scalar): x's center of gravity
     '''
-    c = np.dot(x,np.arange(len(x))  # change this line
+    c = np.dot(x,np.arange(len(x))/np.sum(x)
     return c
 
 def matched_identity(x):
